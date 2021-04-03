@@ -1,12 +1,12 @@
 %% Fuzzy Systems - Classification (Part 1)
 % Aforozi Thomais
 % AEM 9291
-% TSK Model 3 - Sub. Clustering (Class depended)
+% TSK Model 3 - Sub. Clustering (Class dependent)
 % large radius - less rules
 
 function [fis,OA_3,PA_3,UA_3,k_3,ErrorMatrix] = TSK_Model_3(training_data,validation_data,check_data,haberman)
 
-% Subtractive Clustering per class (Class Depended)
+% Subtractive Clustering per class (Class Dependent)
 radius = 0.8;
 [c1,sig1] = subclust(training_data(training_data(:,end)== 1,:),radius);
 [c2,sig2] = subclust(training_data(training_data(:,end)== 2,:),radius);
