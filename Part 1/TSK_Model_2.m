@@ -1,12 +1,12 @@
 %% Fuzzy Systems - Classification (Part 1)
 % Aforozi Thomais
 % AEM 9291
-% TSK Model 2 - Sub. Clustering (Class independed)
+% TSK Model 2 - Sub. Clustering (Class independent)
 % small radius - more rules
 
 function [fis,OA_2,PA_2,UA_2,k_2,ErrorMatrix] = TSK_Model_2(training_data,validation_data,check_data,haberman)
 
-% Subtractive Clustering (Class Independed)
+% Subtractive Clustering (Class Independent)
 fis = genfis2(training_data(:,1:end-1),training_data(:,end),0.3); 
 
 for i = 1:length(fis.output.mf)
