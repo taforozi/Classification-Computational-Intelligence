@@ -1,4 +1,8 @@
 %% Split - Preprocess Data
+% This is a script that we were given for the preprocessing data steps.
+% What this function returns is three subsets of data, training-check-
+% testing with 60-20-20 split respectively. We can also normalize or
+% standardize them using the precop flag variable.
 
 function [trnData,chkData,tstData] = split_scale(data,preproc)
 
