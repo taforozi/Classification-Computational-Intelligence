@@ -1,12 +1,12 @@
 %% Fuzzy Systems - Classification (Part 1)
 % Aforozi Thomais
 % AEM 9291
-% TSK Model 4 - Sub. Clustering (Class depended)
+% TSK Model 4 - Sub. Clustering (Class dependent)
 % small radius - more rules
 
 function [fis,OA_4,PA_4,UA_4,k_4,ErrorMatrix] = TSK_Model_4(training_data,validation_data,check_data,haberman)
 
-% Subtractive Clustering per class (Class Depended)
+% Subtractive Clustering per class (Class Dependent)
 radius = 0.3;
 % since we have two classes we use subtractive clustering for each class
 % c1: centers of clusters, sig1: amplitude of gaussians (class 1)
