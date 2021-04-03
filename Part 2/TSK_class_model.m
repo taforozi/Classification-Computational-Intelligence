@@ -1,10 +1,12 @@
 %% Fuzzy Systems - Classification (Part 2)
 % Aforozi Thomais
 % AEM 9291
-% Grid Search - TSK Model - Sub. Clustering (Class depended)
-%% Clear Workspase
+% Grid Search - TSK Model - Sub. Clustering (Class dependent)
+
+%% clear workspace
 % clear all;
 % close all;
+
 %% Load & Prepare the data
 fprintf('Load & prepare dataset... \n');
 dataset = csvread('data.csv',1,1);
