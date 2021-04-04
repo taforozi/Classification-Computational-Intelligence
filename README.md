@@ -11,5 +11,8 @@ The second and more complicated dataset is used for a more complete modelling pr
 
 ###### dataset: [Epileptic Seizure Recognition dataset](https://archive.ics.uci.edu/ml/datasets/Epileptic+Seizure+Recognition)
 
+## Code
+Τhe files have been created using the **MATLAB R2018a** version. If a different version is used, you may need to customize some commands.
+
 ## Contact
 If there are any questions, feel free to [contact me](mailto:thomi199822@gmail.com?subject=[GitHub]%20Source%20Han%20Sans). 
